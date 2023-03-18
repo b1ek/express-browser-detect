@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Detect client's browser in Express.JS",
   "main": "index.js",
+  "types": "types.d.ts",
   "author": "b1ek",
   "license": "MIT",
   "dependencies": {

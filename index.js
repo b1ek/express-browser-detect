@@ -1,10 +1,9 @@
 const Browser = require('which-browser');
-// const express = require('express');
 
 /**
  * 
- * @param {express.Request} req 
- * @param {express.Response} res 
+ * @param {Express.Request} req 
+ * @param {Express.Response} res 
  * @param {*} next 
  */
 function handler(req, res, next) {
