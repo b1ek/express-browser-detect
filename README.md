@@ -1,17 +1,17 @@
-<h1 align='center'>express-browser</h1>
+<h1 align='center'>express-browser-detect</h1>
 This middleware helps you to easily detect the user's browser.
 
 It uses [which-browser](https://www.npmjs.com/package/which-browser) under the hood, and all the documentation is there
 
 # Installation
 ```
-yarn add --save express-browser
+yarn add --save express-browser-detect
 ```
 
 Or if you prefer `npm`
 
 ```
-npm install --save express-browser
+npm install --save express-browser-detect
 ```
 
 # Example
@@ -19,7 +19,7 @@ npm install --save express-browser
 const express = require('express');
 const app = express();
 const port = 3000;
-const ex_browser = require('express-browser');
+const ex_browser = require('express-browser-detect');
 
 app.use(ex_browser);
 
